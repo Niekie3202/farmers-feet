@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "farmers-feet",
+	"version": "${version}",
+	"name": "Farmer's Feet",
+	"description": "This is a mod for farming jumpers!",
+	"authors": [
+		"Niekie3202"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT-License",
+	"icon": "assets/farmers-feet/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.niekie3202.farmersfeet.FarmersFeet"
+		],
+		"fabric-datagen": [
+          "net.niekie3202.farmersfeet.FarmersFeetDataGenerator"
+		]
+	},
+	"mixins": [
+		"farmers-feet.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
