@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_boots"
+    },
+    "title": { "translate": "advancement.farmers-feet.saved_farmland.title" },
+    "description": { "translate": "advancement.farmers-feet.saved_farmland.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "saved_farmland": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["saved_farmland"]
+  ]
+}

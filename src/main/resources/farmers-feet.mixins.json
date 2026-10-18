@@ -3,7 +3,7 @@
 	"package": "net.niekie3202.farmersfeet.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"ExampleMixin"
+		"FarmBlockMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

@@ -1,0 +1,23 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 5
+  },
+  "additional_wants": {
+    "id": "minecraft:book"
+  },
+  "gives": {
+    "id": "minecraft:enchanted_book",
+    "count": 1
+  },
+  "given_item_modifiers": [
+    {
+      "function": "minecraft:enchant_randomly",
+      "only_compatible": false,
+      "options": "farmers-feet:farmersfeet"
+    }
+  ],
+  "max_uses": 3,
+  "xp": 15,
+  "reputation_discount": 0.05
+}
